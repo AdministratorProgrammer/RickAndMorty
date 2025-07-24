@@ -77,6 +77,10 @@ dependencies {
     // also DI - for @HiltViewModel
     kapt(libs.androidx.hilt.compiler)
 
+    // domain and data modules
+    implementation(project(":domain"))
+    implementation(project(":data"))
+
     // testing
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

@@ -1,4 +1,4 @@
-package com.monofract.rickandmorty.ui.theme
+package com.monofract.rickandmorty.presentation.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
